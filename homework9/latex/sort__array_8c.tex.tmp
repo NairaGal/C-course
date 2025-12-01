@@ -1,0 +1,64 @@
+\doxysection{sort\+\_\+array.\+c File Reference}
+\hypertarget{sort__array_8c}{}\label{sort__array_8c}\index{sort\_array.c@{sort\_array.c}}
+
+
+Program to sort an array of integers entered by the user.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Include dependency graph for sort\+\_\+array.\+c\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{sort__array_8c_ae1f2bc756aab440f9c39667ac5cd93db}{sort\+Array}} (int \texorpdfstring{$\ast$}{*}arr, int n)
+\begin{DoxyCompactList}\small\item\em Sorts an array of integers in ascending order using bubble sort. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{sort__array_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Main function that reads input, sorts array, and prints it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Program to sort an array of integers entered by the user. 
+
+This program dynamically allocates an array of integers based on user input, sorts the array using a separate function, and prints the sorted array.
+
+\begin{DoxyAuthor}{Author}
+Naira 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2025-\/12-\/01 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{sort__array_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{sort__array_8c_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{sort\_array.c@{sort\_array.c}!main@{main}}
+\index{main@{main}!sort\_array.c@{sort\_array.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function that reads input, sorts array, and prints it. 
+
+\begin{DoxyReturn}{Returns}
+int Returns 0 on successful execution. 
+\end{DoxyReturn}
+\Hypertarget{sort__array_8c_ae1f2bc756aab440f9c39667ac5cd93db}\label{sort__array_8c_ae1f2bc756aab440f9c39667ac5cd93db} 
+\index{sort\_array.c@{sort\_array.c}!sortArray@{sortArray}}
+\index{sortArray@{sortArray}!sort\_array.c@{sort\_array.c}}
+\doxysubsubsection{\texorpdfstring{sortArray()}{sortArray()}}
+{\footnotesize\ttfamily void sort\+Array (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}}]{arr,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Sorts an array of integers in ascending order using bubble sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & Pointer to the integer array. \\
+\hline
+{\em n} & Number of elements in the array. \\
+\hline
+\end{DoxyParams}
